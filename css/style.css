@@ -1429,11 +1429,18 @@ body.offcanvas {
   opacity: 0; }
 
 .container-wrap {
-  max-width: 1800px;
+  max-width: none;
   /* Adjust the width as needed */
   width: 100%;
   margin: 0 auto;
   /* Center the container */
   padding: 0 15px;
   /* Optional padding */
+}
+
+.navbar ul li a {
+  font-size: 18px;
+  /* Increase the font size */
+  font-weight: bold;
+  /* Make the font bold */
 }
