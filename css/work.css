@@ -1,30 +1,60 @@
-/* Make the project titles larger and bold */
+/* Center the project titles */
 .project .desc .con h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Style the repository and deployment links as smaller buttons side by side */
+.project .desc .con .links a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.project .desc .con .links a:last-child {
+  margin-right: 0;
+}
+
+.project .desc .con .links {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 /* Style the technologies used */
+.project .desc .con .icon {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .project .desc .con .icon span {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 5px;
 }
 
-/* Style the repository and deployment links as buttons */
-.project .desc .con .links a {
-  display: inline-block;
-  background-color: #007bff;
-  color: white;
-  padding: 10px 15px;
-  margin-right: 10px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
+/* Ensure the image fills the tile properly */
+.project {
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-.project .desc .con .links a:hover {
-  background-color: #0056b3;
+.project .desc {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.project .desc .con {
+  color: #fff;
 }
