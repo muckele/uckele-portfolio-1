@@ -1427,3 +1427,13 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.container-wrap {
+  max-width: 1800px;
+  /* Adjust the width as needed */
+  width: 100%;
+  margin: 0 auto;
+  /* Center the container */
+  padding: 0 15px;
+  /* Optional padding */
+}

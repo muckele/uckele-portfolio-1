@@ -308,3 +308,15 @@
 
 
 }());
+
+$(document).ready(function() {
+    // Smooth scroll to sections
+    $('a[data-nav-section]').on('click', function(event) {
+        event.preventDefault();
+        var section = $(this).data('nav-section');
+        $('html, body').animate({
+            scrollTop: $('section[data-section="' + section + '"]').offset().top - 55
+        }, 500);
+    });
+});
+
