@@ -1444,3 +1444,13 @@ body.offcanvas {
   font-weight: bold;
   /* Make the font bold */
 }
+
+.con h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+div.con {
+  height: 100%;
+}
