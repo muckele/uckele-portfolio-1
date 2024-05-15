@@ -1,0 +1,30 @@
+/* Make the project titles larger and bold */
+.project .desc .con h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the technologies used */
+.project .desc .con .icon span {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Style the repository and deployment links as buttons */
+.project .desc .con .links a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project .desc .con .links a:hover {
+  background-color: #0056b3;
+}
