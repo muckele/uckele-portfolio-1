@@ -40,11 +40,12 @@
   margin-bottom: 5px;
 }
 
-/* Ensure the image fills the tile properly */
+
 .project {
   background-size: cover;
   background-position: center;
-  position: relative;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 .project .desc {
