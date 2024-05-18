@@ -1467,3 +1467,15 @@ div.con {
   height: 100vh;
   /* Make sure the section height is 100% of the viewport height */
 }
+
+.skills-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.skills-badges span {
+  display: inline-block;
+}
