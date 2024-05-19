@@ -1487,12 +1487,9 @@ div.con {
 
 .icon-container a {
   margin: 0 15px;
-  /* Adjust spacing between icons as needed */
 }
 
 .icon-container i {
   font-size: 48px;
-  /* Adjust the size of the icons as needed */
   color: #2c98f0;
-  /* Adjust the color of the icons as needed */
 }
