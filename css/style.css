@@ -1493,3 +1493,8 @@ div.con {
   font-size: 48px;
   color: #2c98f0;
 }
+
+.bold-white-text {
+  color: #ffffff !important;
+  font-weight: bold;
+}
