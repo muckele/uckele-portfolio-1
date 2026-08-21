@@ -261,7 +261,8 @@ p { text-wrap: pretty; }
 .experience-heading h3 { margin-bottom: 0.15rem; font-size: 1.45rem; }
 .experience-heading p { margin-bottom: 0.35rem; color: #53b7ba; font-size: 0.77rem; font-weight: 750; letter-spacing: 0.1em; line-height: 1.45; text-transform: uppercase; }
 .experience-heading time, .experience-heading { color: #d3dbe4; }
-.experience-list > li > p { margin: 0; color: #ecf0f4; font-size: 1.02rem; line-height: 1.55; }
+.experience-list > li > p, .experience-copy > p { margin: 0; color: #ecf0f4; font-size: 1.02rem; line-height: 1.55; }
+.experience-links { display: flex; flex-direction: column; align-items: flex-start; gap: 0.3rem; margin-top: 0.75rem; }
 
 /* Journey, education, contact */
 .journey { padding-bottom: 3.5rem; background: var(--paper-strong); }
@@ -345,7 +346,7 @@ p { text-wrap: pretty; }
   .project-meta .arrow-link + .arrow-link { grid-column: 3; }
   .experience-list li { grid-template-columns: 54px 1fr; }
   .experience-heading { padding-right: 0; border-right: 0; }
-  .experience-list > li > p { grid-column: 2; }
+  .experience-list > li > p, .experience-copy { grid-column: 2; }
   .journey-list li { grid-template-columns: 48px 1fr; gap: 1rem; padding: 1.25rem 0; }
   .journey-stack, .journey-links { grid-column: 2; padding-left: 0; border-left: 0; }
   .journey-links { justify-content: flex-start; }
